@@ -1,0 +1,438 @@
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+   
+    #top{
+        height: 50px;
+        padding: 10px 30px;
+    }
+   
+   
+
+    #lava-agni-logo{
+        width: 130px;
+    }
+
+    #img1{
+    width: 55px;
+    height: 12px;
+   }
+
+   #img2{
+   width: 65px;
+   height: 12px;
+   }
+
+
+   #img3{
+        width: 140px;
+        height: 25px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+    
+    nav{
+    height: 50px;    
+    padding: 3px 10px;
+    top: 50px;
+    overflow-x: scroll;
+}    
+
+.icons-text{
+    padding: 2px;
+    margin-left: 2%;
+}    
+
+.nav-icons{
+    width: 15px;
+    height: 15px;
+    
+}    
+
+
+.pop-text{
+    color: white;
+    font-size: 11px;
+    
+    
+}    
+
+#ryt-option{
+    visibility: hidden;
+}    
+
+
+/* ENABLE AND DISABLE navbar right options Responsive */
+
+#ryt-option-Responsive{
+    width: 95%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    margin-top: 100px;
+    
+
+}    
+
+#text-agni-access-Responsive{
+    color: #f37c34;
+   margin-right: 30px; 
+   font-family: poppins,'sans-serif';
+   text-decoration: underline;
+   font-size: 15px;
+}   
+
+#text-buy-now-Responsive{
+    color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255); 
+   padding: 5px 20px;
+   font-weight: 100;
+   border-radius: 25px;
+   word-spacing: 3px;
+   font-size: 15px;
+}   
+
+main{
+    margin-top: 0px;
+    
+}
+
+.over-align-text{
+    top: 10px;
+}
+
+
+
+
+
+}
+
+
+/* for ipad tablets IN CASE OF NAVBAR */
+
+@media only screen and (min-width: 800px) and (max-width: 1024px){
+    nav{
+        overflow: hidden;
+       
+    }   
+}    
+
+
+
+
+
+
+
+/* FOR ENABLE AND DISABLING OF THIRD COLUMN REFERENCE : TEXT STUNNING 3D DUAL  */
+
+@media only screen and (min-width: 300px) and (max-width: 1025px){
+    
+    .features-container{
+        display: none;
+    }
+    
+}
+
+
+
+/* for the quick fixation of dots position */
+
+@media only screen and (min-width: 1025px) and (max-width: 1350px){
+    #dot3{
+       top: 23vw;
+    }
+
+    #dot6{
+       top: 16vw;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1026px) and (max-width: 3000px){
+    .features-container-{
+        display: none;
+    }
+
+    #three-left-text-m ,#tlt11,#tlt22,#tlt33{
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .features-container-m{
+        display: none;
+    }
+}
+
+
+
+
+
+/* start of forth-segment */
+
+@media only screen and (min-width: 0px) and (max-width: 1024px){
+    .forth-segment{
+        grid-template-columns: auto;
+    height: 150vw;    
+        
+    }
+
+    #fsi1,#fsi2{
+       height: 50vw;
+    }
+
+    #fst1,#fst2{
+        margin-top: 15px;
+        font-size: 3vw;
+        max-height: 35px;
+    }
+}
+
+
+
+
+
+
+
+/* Start of fifth segment  */
+
+@media only screen and (min-width: 0px) and (max-width: 1024px){
+    .fifth-segment{
+        height: auto;
+    }
+
+   #fifth-s-text1,#fifth-s-text2{
+    font-size: 8vw;
+   }
+
+   #flex-container1,#flex-container2{
+    display: none;
+   }
+
+   .ssimg1{
+    margin-top: 5vw;
+   }
+   
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 3000px)
+
+{
+    .fifth-ss-m {
+        display: none;
+    }
+}
+
+
+
+
+/* start of seventh segment */
+
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #seventh-segment{
+            display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #seventh-segment-m{
+        display: none;
+     }
+}
+
+
+
+
+
+
+/* start of eighth segment  */
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #eighth-segment-text{
+           font-size: 6vw;
+           line-height: 5vw;
+    }
+}
+
+
+
+
+
+
+
+
+/* start of ninth segment  */
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #ninth-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #ninth-segment-m{
+        display: none;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of tenth segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #tenth-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #tenth-segment-m{
+        display: none;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of eleventh segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #eleventh-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #eleventh-segment-m{
+        display: none;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of twelfth segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #twelfth-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #twelfth-segment-m{
+        display: none;
+     }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of therteen segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #therteen-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #therteen-segment-m{
+        display: none;
+     }
+
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+/*  the blur dot animation  */
+
+@keyframes moving-blur-dots{
+    from{
+       transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.1);
+    }
+}
+
+
+
+/* animation for ninth segment right ahndside mobile opening and clossing animation */
+
+
+@keyframes opacity {
+ from{
+    opacity: 0;
+ }
+ to{
+    opacity: 1;
+ }
+}
+
+
+@keyframes ns1{
+    from{
+        opacity: 0 ;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes ns2{
+    from{
+        right: 3.5vw;
+        opacity: 0;
+    }
+
+    to{
+        right: -1vw;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes ns3{
+    from{
+        left: -8vw;
+        opacity: 0;
+    }
+
+    to{
+       left: 1.5vw; 
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes ns4{
+    from{
+      right: 12vw;
+      opacity: 0;
+    }
+
+    to{
+        right: -1vw;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+@keyframes ns5{
+    from{
+        right: 16vw;
+        opacity: 0;
+      }
+  
+      to{
+          right: -1.5vw;
+          opacity: 1;
+      }
+}
+
+
+
+@keyframes ns6{
+    from{
+     left: -20vw;
+     opacity: 1;
+    }
+
+    to{
+       left: 2.5vw;
+       opacity: 1; 
+    }
+}
+
+   

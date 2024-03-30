@@ -1,0 +1,449 @@
+/* for mobile versions  */
+
+#three-left-text-m{  
+    /* short form i used for child are = tlt(0) */
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    background-color: #000000;
+    padding: 10px;
+    
+}
+
+#tlt11{
+    font-size: 5vw ;
+    background: linear-gradient(to right, #ffac54, #ff14ff);
+    background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 300;
+    font-family: poppins,sans-serif;
+    line-height: 6vw;
+    
+}
+#tlt22{
+    font-size: 7vw;
+    font-family: poppinsB,sans-serif;
+    color: white;
+    line-height: 6vw;
+}
+#tlt33{
+    font-size: 4vw;
+    color: #bfbfbf;
+    line-height: 6vw;
+    font-family: poppins,sans-serif;
+}
+
+
+.features-container-m{
+    position: relative;
+    background-image: url('imges/curved-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 130vw;
+}
+
+
+#image-over-image1-m{
+    width: 120vw;
+    height: 120vw;
+    position: absolute;
+    background-image: url(imges/curved-phones.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 18vw;
+    left: 10vw;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* fifth segment images width sizes  */
+
+.fifth-ss-m{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    filter: grayscale(50%) blur(5px);
+    
+}
+
+.fifth-ss-m:hover,.fifth-ss-m:checked{
+    opacity: 1.0;
+    filter: grayscale(0%) blur(0px);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* start of seventh segment mobile */
+
+#seventh-segment-m{
+    width: 100%;
+    height: 90vw;
+    box-sizing: border-box;
+}
+
+
+#seventh-segment-text-m{
+    margin: 5vw 1vw 0vw 0vw ;
+    font-family: poppins;
+    font-size: 6vw;
+    padding: 3vw 0vw 0vw 2vw;
+    line-height: 5vw;
+    font-weight: 100;
+    background: linear-gradient( to right, #fbb76f  5% ,#f541f5 25% ,green 200%);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 5vw;
+}
+
+
+#seventh-segment-text-bold-m{
+    color: white;
+    font-family: poppinsB;
+   font-weight: 900;
+}
+
+#seventh-segment-img-m{
+    background-image: url(imges/ai-eye2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    transition: 0.7s ease-in-out;
+}
+
+#seventh-segment-img-m:hover,#seventh-segment-img-m:active{
+    background-image: url(imges/ai-eye1.png);
+}
+
+
+
+
+
+
+
+/* start of ninth segment */
+
+#ninth-segment-m{
+    width: 100%;
+    min-height: 85vw;
+}
+
+#ninth-segment-text-m{
+    width: 100%;
+    height: 20vw;
+    position: relative;
+    padding: 5px;
+    z-index: 10;
+    
+ }
+
+#nst1-m{
+  font-size: 6vw;
+  margin-top: 3vw;
+}
+
+#nst2-m{
+    font-size: 7vw;
+    line-height: 3vw;
+}
+
+#ninth-segment-img-m{
+    height: 100%;
+    width: 100%;
+    background-image: url(imges/cooling\ technology.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of tenth segment */
+
+#tenth-segment-m{
+    position: relative;
+    width: 100%;
+    height: 150vw;
+    box-sizing: border-box;
+}
+
+
+#tenth-segment-text-m{
+   
+    width: 100%;
+    height: 10%;
+    line-height: 7vw;
+    font-family: poppins;
+    font-size: 7vw;
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+    z-index: 11;
+    padding: 1vw;
+    background: linear-gradient( to right, #f9b46b, #f541f5);
+    background-clip: text;
+    color: transparent;
+}
+
+
+#tenth-segment-text-bold-m{
+    color: white;
+    font-family: poppinsB;
+    font-size: 8vw;
+    position: absolute;
+    
+}
+
+
+#tenth-segment-img-m{
+    background-image: url(imges/ram-M.jpg);
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of eleventh segment */
+
+#eleventh-segment-m{
+    position: relative;
+    width: 100%;
+    height: 120vw;
+    box-sizing: border-box;
+}
+
+
+#eleventh-segment-text-m{
+    width: 100%;
+    height: 10%;
+    line-height: 7vw;
+    font-family: poppins;
+    font-size: 7vw;
+    position: absolute;
+    top: 17vw;
+    left: 2vw;
+    z-index: 11;
+    padding: 1vw;
+}
+
+#eleventh-segment-text-bold-m{
+    color: white;
+    font-family: poppinsB;
+    font-size: 8vw;
+    position: absolute;
+    margin-left: 30vw;
+}
+
+
+
+#eleventh-segment-img-m{
+    background-image: url(imges/5g-m.jpg);
+    background-size: 110%;
+    height: 110%;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of twelfth segment  */
+
+#twelfth-segment-m{
+    position: relative;
+    width: 100%;
+    height: 140vw;
+    box-sizing: border-box;
+}
+
+
+#twelfth-segment-text-m{
+    width: 100%;
+    height: 20%;
+    line-height: 7vw;
+    font-family: poppins;
+    font-size: 7vw;
+    position: absolute;
+    top: 10vw;
+    left: 2vw;
+    z-index: 11;
+    padding: 1vw;
+}
+
+
+
+
+
+#twelfth-segment-img-m{
+    background-image: url(imges/quard-cam-m.jpg);
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of twelfth segment  */
+
+#therteen-segment-m{
+    position: relative;
+    width: 100%;
+    height: 90vw;
+    margin-top: 5vw;
+}
+
+
+#therteen-segment-text-m{
+    width: 100%;
+    height: 20vw;
+    padding: 2vw 0vw 0vw 3vw;
+    box-sizing: border-box;
+    line-height: 3vw;
+    background-color: rgb(0, 0, 0);
+}
+
+#therteen-segment-text1-m{
+    display: block;
+    width: 100%;
+    height: 8vw;
+    background-image: url(imges/big-um.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+
+
+
+#therteen-segment-text3-m{
+    display: block;
+    color: white;
+    margin-top: 5.5vw;
+    font-size: 3vw;
+    font-family: poppins;
+}
+
+
+
+
+#therteen-segment-img-m{
+    background-image: url(imges/camera-2.jpg);
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
