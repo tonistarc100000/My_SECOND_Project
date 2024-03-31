@@ -428,8 +428,8 @@ main{
     background-size: contain;
     position: absolute;
     z-index: 11;
-    top: -2.7vw;
-    left: -13vw;
+    top: -2.3vw;
+    left: -9.5vw;
 }
 
 #movdot2-img{
@@ -1268,6 +1268,103 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+/* start of fourteen segment  */
+
+
+#fourteen-segment{
+    position: relative;
+    width: 100%;
+    /* height: 42vw; */
+    height: 55vw;
+    margin-top: 2vw;
+    background-color: #e86de8;
+}
+
+
+#fourteen-segment-text{
+    width: 35vw;
+    height: 8vw;
+    background-color: purple;
+    line-height: 3.5vw;
+    position: absolute;
+    top: 4vw;
+    right: 5vw;
+    z-index: 10;
+}
+
+#fourteen-segment-text-g{
+    margin-left: 16vw;
+}
+
+
+
+
+#fourteen-segment-bg-img1{
+    background-image: url(imges/camera/slow-motion.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    z-index: 9;
+    position: relative;
+    top: 10vw;
+}
+
+
+
+#fourteen-segment-sidecam-container{
+    width: 30vw;
+    height: 30vw;
+    background-color: #923800;
+    position: absolute;
+    z-index: 12;
+    top: 9vw;
+}
+
+#fourteen-segment-sidecam-img{
+    width: 15vw;
+    height: 27vw;
+    margin-top: 1.5vw;
+    position: absolute;
+    left: -1vw;
+    z-index: 1;
+}
+
+#fourteen-segment-sidecam-dots{
+    width: 30vw;
+    height: 29vw;
+    margin-top: 0.5vw;
+    position: absolute;
+    /* left: -15vw; */
+    z-index: 2;
+
+}
+
+#fourteen-segment-mode-container{
+    width: 15vw;
+    height: 100%;
+    background: purple;
+    position: relative;
+    z-index: 0;
+    /* right: ; */
+}
+
+
+
+.mode-dot{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color: white;
+}
 
 
 
