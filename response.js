@@ -148,3 +148,151 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// start of fourteen segment 
+function clickdot1() {
+    const dot1 = document.getElementById('m-dot1');
+
+    dot1.style.backgroundColor = '#229bd5';
+    dot1.style.transition = 'transform 0.1s ease';
+    dot1.style.transform = 'scale(1.3)'; 
+
+    document.addEventListener('click', function(event) {
+        const targetElement = event.target;
+
+        // Check if the clicked element is dot1
+        if (targetElement === dot1) {
+            const backimg1 = document.getElementById('fourteen-segment-bg-img1');
+            backimg1.style.backgroundImage = 'url(imges/camera/slow-motion.jpg)';
+        } else {
+            dot1.style.backgroundColor = 'white';
+            dot1.style.transition = 'transform 0.3s ease';
+            dot1.style.transform = 'scale(1)'; 
+        }
+    });
+}
+
+function clickdot2() {
+    const dot2 = document.getElementById('m-dot2');
+    
+    dot2.style.backgroundColor = '#229bd5';
+    dot2.style.transition = 'transform 0.1s ease';
+    dot2.style.transform = 'scale(1.3)'; 
+
+    document.addEventListener('click', function(event) {
+        const targetElement = event.target;
+
+        // Check if the clicked element is dot2
+        if (targetElement === dot2) {
+            const backimg2 = document.getElementById('fourteen-segment-bg-img1');
+            backimg2.style.backgroundImage = 'url(imges/camera/photo-img.jpg)';
+        } else {
+            dot2.style.backgroundColor = 'white';
+            dot2.style.transition = 'transform 0.3s ease';
+            dot2.style.transform = 'scale(1)'; 
+        }
+    });
+}
+
+
+function clickdot3() {
+    const dot3 = document.getElementById('m-dot3');
+
+    dot3.style.backgroundColor = '#229bd5';
+    dot3.style.transition = 'transform 0.1s ease';
+    dot3.style.transform = 'scale(1.3)'; 
+
+    document.addEventListener('click', function(event) {
+        const targetElement = event.target;
+
+        // Check if the clicked element is dot3
+        if (targetElement === dot3) {
+            const backimg3 = document.getElementById('fourteen-segment-bg-img1');
+            backimg3.style.backgroundImage = 'url(imges/camera/film.jpg)';
+        } else {
+            dot3.style.backgroundColor = 'white';
+            dot3.style.transition = 'transform 0.3s ease';
+            dot3.style.transform = 'scale(1)'; 
+        }
+    });
+}
+
+function clickdot4() {
+    const dot4 = document.getElementById('m-dot4');
+    
+    dot4.style.backgroundColor = '#229bd5';
+    dot4.style.transition = 'transform 0.1s ease';
+    dot4.style.transform = 'scale(1.3)'; 
+
+    document.addEventListener('click', function(event) {
+        const targetElement = event.target;
+
+        // Check if the clicked element is dot4
+        if (targetElement === dot4) {
+            const backimg4 = document.getElementById('fourteen-segment-bg-img1');
+            backimg4.style.backgroundImage = 'url(imges/camera/video-camera.jpg)';
+        } else {
+            dot4.style.backgroundColor = 'white';
+            dot4.style.transition = 'transform 0.3s ease';
+            dot4.style.transform = 'scale(1)'; 
+        }
+    });
+}
+
+
+
+
+
+
+
+
+function clickdot5() {
+    const dot5 = document.getElementById('m-dot5');
+
+    dot5.style.backgroundColor = '#229bd5';
+    dot5.style.transition = 'transform 0.1s ease';
+    dot5.style.transform = 'scale(1.3)'; 
+
+    document.addEventListener('click', function(event) {
+        const targetElement = event.target;
+
+        // Check if the clicked element is dot5
+        if (targetElement === dot5) {
+            const backimg5 = document.getElementById('fourteen-segment-bg-img1');
+            backimg5.style.backgroundImage = 'url(imges/camera/night-mode.jpg)';
+        } else {
+            dot5.style.backgroundColor = 'white';
+            dot5.style.transition = 'transform 0.3s ease';
+            dot5.style.transform = 'scale(1)'; 
+        }
+    });
+}
+
+
+
+

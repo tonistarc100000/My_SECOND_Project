@@ -12,6 +12,9 @@
 }
 
 
+a{
+    text-decoration: none;
+}
 
 *{
     margin: 0;
@@ -43,9 +46,8 @@
 body{
     background-color: #000000;
     height: auto;
-    margin-bottom: 1000px;
+    margin-bottom: 0px;
 }
-
 
 
 
@@ -1283,17 +1285,14 @@ main{
 #fourteen-segment{
     position: relative;
     width: 100%;
-    /* height: 42vw; */
-    height: 55vw;
+    height: 50vw;
     margin-top: 2vw;
-    background-color: #e86de8;
 }
 
 
 #fourteen-segment-text{
     width: 35vw;
     height: 8vw;
-    background-color: purple;
     line-height: 3.5vw;
     position: absolute;
     top: 4vw;
@@ -1323,7 +1322,6 @@ main{
 #fourteen-segment-sidecam-container{
     width: 30vw;
     height: 30vw;
-    background-color: #923800;
     position: absolute;
     z-index: 12;
     top: 9vw;
@@ -1343,28 +1341,220 @@ main{
     height: 29vw;
     margin-top: 0.5vw;
     position: absolute;
-    /* left: -15vw; */
+    left: -15vw;
     z-index: 2;
 
 }
 
 #fourteen-segment-mode-container{
-    width: 15vw;
+    width: 30vw;
     height: 100%;
-    background: purple;
     position: relative;
-    z-index: 0;
-    /* right: ; */
+    z-index: 12;
+    
 }
 
 
 
-.mode-dot{
-    width: 2vw;
-    height: 2vw;
+
+.dot-mode{
+    width: 1.4vw;
+    height: 1.4vw;
     border-radius: 50%;
     background-color: white;
+    position: absolute;
+    box-sizing: border-box;
+    border: 0.15vw solid white;
+    margin-left: 15vw;
+
+    
 }
+
+
+#m-dot1{
+   top: 5vw;
+   left: -4.2vw;
+}
+
+#m-dot2{
+    top: 9vw;
+    left: -1.8vw;
+}
+
+#m-dot3{
+    top: 14vw;
+    left: -0.7vw;
+ }
+ 
+ #m-dot4{
+     top: 19vw;
+     left: -1.45vw;
+ }
+
+
+
+ 
+#m-dot5{
+    top: 23vw;
+    left: -3.7vw;
+ }
+ 
+
+
+
+.txt-modes{
+    font-family: poppins;
+    font-size: 1vw;
+    color: white;
+    position: relative;
+}
+
+
+
+#txt-Modes{
+    top: 1.5vw;
+    left: 10vw;
+    font-size: 1.3vw;
+}
+
+
+#txt-Macro{
+    top: 4.5vw;
+    left: 8vw;
+}
+
+#txt-Potrait{
+    top: 8.5vw;
+    left: 7vw;
+}
+
+#txt-Photo{
+    top: 13.7vw;
+    left: 4.7vw;
+}
+
+#txt-Video{
+   top: 18.6vw;
+   left: 0.8vw; 
+}
+
+#txt-NightMode{
+    top: 22.7vw;
+    right: 4.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of fifteen segment  */
+
+
+#fifteen-segment{
+    position: relative;
+    width: 100%;
+    height: 56vw;
+    margin-top: 2vw;
+}
+
+#fifteen-segment-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(imges/service-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of sixteen segment  */
+
+
+
+#sixteen-segment{
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    margin-top: 2vw;
+}
+
+#sixteen-segment-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(imges/last.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

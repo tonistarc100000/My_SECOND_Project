@@ -436,3 +436,47 @@ main{
 
 
 
+
+
+/* start of fifteen segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #fifteen-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #fifteen-segment-m{
+        display: none;
+     }
+
+}
+
+
+
+
+/* start of sixteen segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #sixteen-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #sixteen-segment-m{
+        display: none;
+     }
+
+}
+
+
+
+

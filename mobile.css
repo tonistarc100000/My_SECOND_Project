@@ -433,15 +433,46 @@
 
 
 
+/* start of fifteen segment */
+
+
+#fifteen-segment-m{
+    position: relative;
+    width: 100%;
+    height: 120vw;
+    margin-top: 2vw;
+}
+
+#fifteen-segment-img-m{
+    width: 100%;
+    height: 100%;
+    background-image: url(imges/charging-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 
 
 
 
 
+/* start of sixteen segment */
 
 
+#sixteen-segment-m{
+    position: relative;
+    width: 100%;
+    height: 180vw;
+    margin-top: 2vw;
+}
 
+#sixteen-segment-img-m{
+    width: 100%;
+    height: 100%;
+    background-image: url(imges/last-m.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 
 

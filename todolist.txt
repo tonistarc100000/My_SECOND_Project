@@ -1,0 +1,7 @@
+ task for today :-
+
+-- create your projects all clickable links placed.
+-- make navigation bar links active and change color into blue and smooth scrolling, while clicking.
+-- create a drop down table like original project interface.
+
+
