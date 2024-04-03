@@ -480,3 +480,26 @@ main{
 
 
 
+
+
+/* start of seventeen segment  */
+
+@media only screen and (min-width: 200px) and (max-width: 1024px){
+    #seventeen-segment{
+            display: none;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1025px) and (max-width: 3000px){
+     #seventeen-segment-m{
+        display: none;
+     }
+
+}
+
+
+
+

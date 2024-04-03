@@ -1,3 +1,127 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the Home link element
+    const homeLink = document.getElementById('home-link');
+
+    // Add a click event listener to the Home link
+    homeLink.addEventListener('click', function(event) {
+        event.preventDefault();  // Prevent default behavior of link
+
+        // Get the offsetTop of the target section (first-segment)
+        const targetSection = document.getElementById('first-segment');
+        const offsetTop = targetSection.offsetTop;
+
+        // Scroll smoothly to the target section
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the Home link element
+    const designLink = document.getElementById('design-link');
+
+    // Add a click event listener to the Home link
+    designLink.addEventListener('click', function(event) {
+        event.preventDefault();  // Prevent default behavior of link
+
+        // Get the offsetTop of the target section (first-segment)
+        const targetSection = document.getElementById('third-segment');
+        const offsetTop = targetSection.offsetTop;
+
+        // Scroll smoothly to the target section
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    });
+});
+
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const displayLink = document.getElementById('display-link');
+    const performanceLink = document.getElementById('performance-link');
+    const cameraLink = document.getElementById('camera-link');
+    const featuresLink = document.getElementById('features-link');
+    const serviceLink = document.getElementById('service-link');
+
+    // Function to scroll to the target section smoothly
+    function scrollToSection(targetId) {
+        const targetSection = document.getElementById(targetId);
+        const offsetTop = targetSection.offsetTop;
+
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+        });
+    }
+
+    // Add click event listeners to each link
+    displayLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        scrollToSection('sixth-segment' || 'sixth-segment-m' );
+    });
+
+    performanceLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        scrollToSection('eighth-segment');
+    });
+
+    cameraLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        scrollToSection('twelfth-segment');
+    });
+
+    featuresLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        scrollToSection('fifteen-segment');
+    });
+
+    serviceLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        scrollToSection('sixteen-segment');
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function toggleImage1() {
     const image1 = document.getElementById('movdot1-img');
     image1.style.display = (image1.style.display === 'none' || image1.style.display === '') ? 'block' : 'none';
